@@ -1,49 +1,49 @@
 *, *::before, *::after{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-            align-items: center;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100vh;
-            background-color: white;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
 }
 .conteiner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .band{
-  width: 600px;
-  height: 400px;
-  background-color: white;
-  display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    display: flex;
 }
 table{
-  width: 600px;
-  height: 400px;
+    width: 600px;
+    height: 400px;
 }
 table, td{
-     border: 0px;
-     border-collapse: collapse;
-            
+    border: 0px;
+    border-collapse: collapse;
+    
 }
 
 tr:nth-child(odd){
-            background-color: #75AADB; /* Comando para pintar a tabela pulando de um em um*/
-        }
+    background-color: #75AADB; /* Comando para pintar a tabela pulando de um em um*/
+}
 
-  
+
 
 .sol{
-  position: absolute;
-  align-items: center;
-  font-size: 120px;
-  transform: translate(235px, 115px);
-  color: #FCBF49;
+    position: absolute;
+    align-items: center;
+    font-size: 100px;
+    transform: translate(220px, 127px);
+    color: #FCBF49;
 }
